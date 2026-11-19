@@ -20,6 +20,7 @@ public class BankAccount implements Valuable {
     }
     @Override
     public BigDecimal getValue() {
+        System.out.println(balance);
         return balance;
     }
 }
