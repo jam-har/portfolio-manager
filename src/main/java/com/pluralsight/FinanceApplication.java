@@ -5,7 +5,7 @@ import com.pluralsight.finance.Valuable;
 
 import java.math.BigDecimal;
 
-public class Main {
+public class FinanceApplication  {
     public static void main(String[] args) {
 
         BankAccount account1 = new BankAccount("Pam", "123", new BigDecimal(12500));
@@ -17,7 +17,6 @@ public class Main {
         //the second line doesn't work because it is relying on the valuable class. I would need to add the deposit method
         //or cast it as a bank account for all the methods to be useful.
 
-        System.out.println(account1.getValue());
+        account1.getValue();
     }
-
 }
