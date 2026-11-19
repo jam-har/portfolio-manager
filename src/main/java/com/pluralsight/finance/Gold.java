@@ -1,8 +1,8 @@
-package com.pluralsight;
+package com.pluralsight.finance;
 
 import java.math.BigDecimal;
 
-public class Gold extends FixedAsset{
+public class Gold extends FixedAsset {
     private double Weight;
 
     public Gold(String name, double weight) {
